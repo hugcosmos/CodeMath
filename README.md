@@ -18,6 +18,16 @@
 
 ---
 
+<p align="center">
+  <a href="https://codemath.pages.dev/" target="_blank">
+    <img src="./assets/screenshot.png" alt="CodeMath Screenshot" width="800">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://codemath.pages.dev/" target="_blank"><b>🚀 Live Demo → https://codemath.pages.dev/</b></a>
+</p>
+
 ## Introduction
 
 CodeMath is an interactive math learning platform built with React + TypeScript. Through rich animations, 3D effects, and interactive demonstrations, it helps learners understand core mathematical concepts in computer science.

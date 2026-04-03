@@ -18,6 +18,16 @@
 
 ---
 
+<p align="center">
+  <a href="https://codemath.pages.dev/" target="_blank">
+    <img src="./assets/screenshot.png" alt="CodeMath 首页截图" width="800">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://codemath.pages.dev/" target="_blank"><b>🚀 在线演示 → https://codemath.pages.dev/</b></a>
+</p>
+
 ## 简介
 
 CodeMath 是一个基于 React + TypeScript 构建的交互式数学学习平台，通过丰富的动画、3D 效果和交互式演示，帮助学习者理解计算机科学中的核心数学概念。
