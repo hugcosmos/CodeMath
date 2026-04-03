@@ -80,7 +80,7 @@ const CTAFooter = ({ onStartLearning }: CTAFooterProps) => {
             </p>
             <Tooltip>
               <TooltipTrigger asChild>
-                <span className="text-gray-600 text-xs hover:text-gray-400 transition-colors cursor-help border-b border-dotted border-gray-600 hover:border-gray-400">
+                <span className="text-gray-600 text-xs hover:text-gray-400 transition-colors cursor-pointer border-b border-dotted border-gray-600 hover:border-gray-400">
                   {t('footer.acknowledgments')}
                 </span>
               </TooltipTrigger>
