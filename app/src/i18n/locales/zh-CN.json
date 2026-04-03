@@ -100,7 +100,8 @@
     "subtitle": "通过交互式体验，探索计算机科学中的数学之美",
     "button": "立即开始",
     "copyright": "© 2026 CodeMath · 灵感来自《程序员的数学》",
-    "acknowledgments": "致谢与说明"
+    "acknowledgments": "致谢与说明",
+    "acknowledgmentsContent": "本项目灵感源自结城浩的《程序员的数学》。章节主题和学习路径参考了该书的结构，所有代码实现、交互组件和可视化均为原创作品。"
   },
   "language": {
     "title": "语言",

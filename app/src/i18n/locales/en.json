@@ -84,7 +84,8 @@
     "subtitle": "Explore the beauty of mathematics in computer science through interactive experiences",
     "button": "Start Now",
     "copyright": "© 2026 CodeMath · Inspired by Mathematics for Programmers",
-    "acknowledgments": "Acknowledgments"
+    "acknowledgments": "Acknowledgments",
+    "acknowledgmentsContent": "This project is inspired by the book \"Mathematics for Programmers\" (程序员的数学) by Hiroshi Yuki. The chapter topics and learning path are based on the book's structure, while all code implementations, interactive components, and visualizations are original work."
   },
   "language": {
     "title": "Language",

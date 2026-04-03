@@ -4,6 +4,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ArrowRight, Heart } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -77,14 +78,20 @@ const CTAFooter = ({ onStartLearning }: CTAFooterProps) => {
             <p className="text-gray-500 text-sm">
               {t('footer.copyright')}
             </p>
-            <a 
-              href="https://github.com/hugcosmos/CodeMath#致谢--acknowledgments" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-gray-600 text-xs hover:text-gray-400 transition-colors"
-            >
-              {t('footer.acknowledgments')}
-            </a>
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <span className="text-gray-600 text-xs hover:text-gray-400 transition-colors cursor-help border-b border-dotted border-gray-600 hover:border-gray-400">
+                  {t('footer.acknowledgments')}
+                </span>
+              </TooltipTrigger>
+              <TooltipContent 
+                side="top" 
+                sideOffset={8}
+                className="max-w-sm bg-gray-800 text-gray-200 border border-gray-700 px-4 py-3 text-xs leading-relaxed"
+              >
+                {t('footer.acknowledgmentsContent')}
+              </TooltipContent>
+            </Tooltip>
           </div>
           <p className="text-gray-500 text-sm flex items-center gap-1">
             Made with <Heart className="w-4 h-4 text-blue-500 fill-blue-500" /> & Code
